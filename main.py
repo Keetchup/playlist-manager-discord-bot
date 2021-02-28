@@ -107,7 +107,6 @@ def get_oauthorization():
   return googleapiclient.discovery.build(
     api_service_name, api_version, credentials=credentials)
 
-keep_alive()
 discord_client.run(os.getenv('TOKEN'))
 
 
