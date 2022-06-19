@@ -55,7 +55,7 @@ class MainCommands(commands.Cog):
         text.append('/**sirka**')
         text.append('/**lockdown** - copypasta')
         
-        self.command_list.append(dong)
+        self.command_list.append(text)
 
     def add_rng_commands(self):
         rng = []
